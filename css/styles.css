@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+}
+
+.main-section {
+    width: 80%;
+    /* Adjust the width as necessary */
+    max-width: 100rem;
+    /* Optional max-width */
+    background-color: #f8f9fa;
+    /* Optional background color */
+    padding: 20px;
+    /* Optional padding */
+    border-radius: 8px;
+    /* Optional rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Optional shadow */
+}
