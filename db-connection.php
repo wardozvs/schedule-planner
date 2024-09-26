@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "wardozvs";
 $password = "083103"; // Replace with your actual password
-$dbname = "schedule-manager";
+$dbname = "schedule-planner";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
